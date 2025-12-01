@@ -1,0 +1,73 @@
+/* Import Lexend font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
+
+/* Apply default font and spacing */
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #e6f0fa; /* Light blue background */
+    color: #1a1a1a; /* Dark text for readability */
+}
+
+/* Style the main title */
+h1 {
+    font-weight: 700; /* Bold */
+    color: #0b3d91; /* Dark blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Subheadings (h2, h3) */
+h2, h3 {
+    font-weight: 500; /* Medium */
+    color: #1a5fb4; /* Medium blue */
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+p {
+    font-weight: 400; /* Regular */
+    color: #2a6fbf; /* Medium-light blue */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Example button styling */
+button {
+    background-color: #0b5ed7; /* Medium-dark blue */
+    color: white;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0749a3; /* Darker blue on hover */
+}
+
+/* Optional: links styling */
+a {
+    color: #0b5ed7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0749a3;
+}
+
+/* Optional: card or container styling */
+.container {
+    background-color: #ffffff; /* White cards for contrast */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
